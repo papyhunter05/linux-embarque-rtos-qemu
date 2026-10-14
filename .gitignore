@@ -1,0 +1,25 @@
+# Buildroot (téléchargé séparément)
+buildroot-*/
+dl/
+output/
+
+# FreeRTOS (cloné séparément)
+FreeRTOS/
+
+# Fichiers de compilation
+*.o
+*.axf
+*.elf
+*.out
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Données générées par l'application
+mesures.csv
+
+# Éditeurs
+.vscode/
+*.swp
